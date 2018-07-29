@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Interfaces - Flexbox</title>
+		<link href="css/tutorial-flexbasis01.css" rel="stylesheet" />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div class='flex-container'>
+			<div class='flex-row'>
+				<div class='flex-item'>
+					<img src="images/jonathan-groff.jpg">
+				</div>
+				<div class='flex-item'>
+					<img src="images/jonathan-groff.jpg">
+				</div>
+			</div>
+
+<p>It specifies the initial size of the flex item, before any available space is distributed according to the flex factors. When omitted from the flex shorthand, its specified value is the length zero.</p>
+<p>A flex-basis value set to auto sizes the element according to its size property (which can itself be the keyword auto, which sizes the element based on its contents).</p>
+
+<pre>
+.flex-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #d6e9fe;
+	color: #5995DA;
+}
+
+.flex-item {
+	padding: 1.25rem;
+	background: #fff;
+	border: 0.0625rem solid #003264;
+	text-align: center;
+}
+
+.flex-item:nth-of-type(1) {
+	flex-basis: 40rem;
+}
+
+.flex-item:nth-of-type(2) {
+	flex-basis: auto;
+}
+
+img {
+	width: 20rem;
+}
+</pre>
+
+		</div>
+	</body>
+</html>

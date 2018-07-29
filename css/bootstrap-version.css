@@ -1,0 +1,252 @@
+/*-----------------------------------------------------------------------------------*\
+	#for reference
+\*-----------------------------------------------------------------------------------*/
+
+@trolley_black: #2b2120;
+@trolley_green: #594828;
+@trolley_tan: #f0e9cd;
+@trolley_orange: #ec7c4a;
+@trolley_red: #a63429;
+
+/*-----------------------------------------------------------------------------------*\
+	#Overwrites
+\*-----------------------------------------------------------------------------------*/
+body {
+	background-color: #594828;
+	color: #f0e9cd;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	// font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+a {
+	color: #f0e9cd;
+	transition: color .3s ease;
+}
+
+a:hover {
+	color: #ec7c4a;
+	text-decoration: none;
+}
+
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.intro {
+	max-width: 750px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.home .row {
+	margin: 0;
+}
+
+.home div[class*=col-] {
+	padding: 0;
+	background: transparent;
+}
+
+
+.navbar {
+	margin-bottom: 0;
+	box-shadow: 1px 0 2px #000;
+	border-radius: 0;
+}
+
+.source {
+	font-size: 12px;
+}
+
+.note {
+	font-size: 12px;
+	font-style: italic;
+}
+
+/* tiles */
+.tile {
+	position: relative;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	border: 1px solid rgba(236,124,74,.5);
+	overflow: hidden;
+}
+
+.tile .art {
+	position: relative;
+}
+
+.tile .art img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	min-width: 100%;
+	max-width: 9999px;
+	min-height: 100%;
+	transform: translate(-50%,-50%);
+}
+
+.tile .cap {
+	padding: 5px 10px;
+	font-size: 18px;
+}
+
+.tile .info {
+	position: absolute;
+	width: 101%;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	padding: 40px 30px 20px;
+	font-size: 16px;
+	background-image: linear-gradient(transparent, rgba(43,33,32,.6) 60%, rgba(43,33,32,1) 100%);
+}
+
+.tile .info h3 {
+	letter-spacing: 3px;
+}
+
+.tile footer p {
+	padding: 10px 0;
+	color: #594828;
+	font-size: 12px;
+}
+
+.tile.medium .top {
+	background: #f0e9cd;
+	margin-bottom: 1px;
+}
+
+.tile.medium .bottom {
+	background: #f0e9cd;
+}
+
+.tile.medium img {
+	width: 50%;
+	float: right;
+}
+	
+.tile.medium .info {
+	position: relative;
+	width: 50%;
+	left: 25%;
+	padding-top: 10px;
+	background: transparent;
+	color: #2b2120;
+}
+
+.tile.medium .info a {
+	color: #2b2120;
+}
+
+.tile.small .info {
+	padding: 10px;
+}
+
+
+img {
+	width: 100%;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable]{
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+
+.column {
+	width: 280px;
+	float: left;
+	border: 1px solid #666;
+	background-color: rgba(0,0,0,.1);
+	margin: 5px 5px 5px 0;
+	-webkit-box-shadow: inset 0 0 3px #000;
+	-ms-box-shadow: inset 0 0 3px #000;
+	box-shadow: inset 0 0 3px #000;
+	cursor: move;
+}
+
+.column .content {
+	padding: 10px;
+}
+
+.column .treatment {
+	box-shadow: none;
+	border: 1px solid rgba(0,0,0,.5);
+	margin-bottom: 5px
+}
+
+.column header {
+	text-align: center;
+	text-shadow: #000 0 1px;
+	box-shadow: 5px;
+	padding: 5px;
+	background: #444
+}
+
+.column.over {
+	border: 2px dashed #999;
+}
+
+.clear {
+	clear: both;
+}
+
+#map {
+	width: 100%;
+	height: 600px;
+}
+
+.country {
+	text-transform: capitalize
+}
+
+@media (min-width: 978px) and (max-width: 1200px) {
+	.column {
+		width: 225px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.column {
+		width: 170px;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+	.column {
+		width: 130px;
+	}
+}
+
+@media (max-width: 599px) {
+	.column {
+		width: 100%;
+		float: none;
+	}
+}

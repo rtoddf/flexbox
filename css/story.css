@@ -1,0 +1,35 @@
+body.story-page {
+	background: #fff;
+}
+
+.story-page .image-holder {
+	max-height: 450px;
+	overflow: hidden;
+}
+
+.content-well {
+	padding: 0 30px 30px;
+}
+
+.content-well p {
+	padding-bottom: 20px;
+
+	line-height: 26px;
+}
+
+.photo-caption {
+	padding: 10px 30px 0;
+	font-size: 12px;
+}
+
+.photo-credit {
+	font-style: italic;
+}
+
+@media (min-width: 600px) {
+	.story-page  .image-holder img {
+		-webkit-transform: translate(0, -20%);
+	    -ms-transform: translate(0, -20%);
+	    transform: translate(0, -20%);
+	}
+}

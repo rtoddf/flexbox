@@ -1,0 +1,175 @@
+[
+	{
+		"name": "Tatiana Maslany",
+		"image": "tatiana-maslany.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Sara Gilbert",
+		"image": "sara-gilbert.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."	},
+	{
+		"name": "Lighting Model",
+		"image": "lighting01.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."	},
+	{
+		"name": "Hannah Hart",
+		"image": "hannah-hart.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Herb Ritts",
+		"image": "herb-ritts.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Matt Bomer",
+		"image": "matt-bomer03.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Robin Lord Taylor",
+		"image": "robin-lord-taylor.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Connor Franta",
+		"image": "connor-franta.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Blake McGgrath",
+		"image": "blake-mcgrath.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Eli Lieb",
+		"image": "eli-lieb.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Joseph Altuzarra",
+		"image": "joseph-altuzarra.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "David Bowie",
+		"image": "david-bowie.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Shaping Sound",
+		"image": "shaping-sound.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Xavier Dolan",
+		"image": "xavier-dolan02.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Adam Lambert",
+		"image": "adam-lambert02.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Charlie Carver",
+		"image": "charlie-carver-vertical.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Taron Egerton",
+		"image": "taron-egerton.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Adam Lambert",
+		"image": "adam-lambert.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Tommy Dorfman",
+		"image": "tommy-dorfman.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Connor Franta",
+		"image": "connor-franta01.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Andrew Garfield",
+		"image": "andrew-garfield02.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Andrew Garfield",
+		"image": "andrew-garfield01.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Matt Bomer",
+		"image": "matt-bomer02.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Ryan Reynolds",
+		"image": "ryan-reynolds.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Darren Criss",
+		"image": "darren-criss02.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Andrew Garfield",
+		"image": "andrew-garfield03.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Aaron Tveit",
+		"image": "aaron-tveit.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Nick Jonas",
+		"image": "nick-jonas.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Kyle Dean Massey",
+		"image": "kyle-dean-massey.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Nico Tortorella",
+		"image": "nico-tortorella-bw.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Joseph Gordon-Levitt",
+		"image": "joseph-gordon-levitt.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Omar Sharif Jr",
+		"image": "omar-sharif.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Gideon Glick",
+		"image": "gideon-glick.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Chris Mears",
+		"image": "chris-mears.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	},
+	{
+		"name": "Robbie Rogers",
+		"image": "robbie-rogers.jpg",
+		"info": "Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis. Morbi sit amet tristique nunc. Donec purus libero, lobortis nec ante et, ultricies ullamcorper nibh."
+	}
+]

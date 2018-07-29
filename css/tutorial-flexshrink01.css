@@ -1,0 +1,70 @@
+/* rem sizes:
+150px = 9.375rem
+100px = 6.25rem
+40px = 2.5rem
+30px = 1.875rem
+20px = 1.25rem
+
+16px = 1rem
+15px = .9375rem
+14px = 0.875rem
+13px = 0.8125rem
+12px = 0.75rem
+10px = 0.625rem
+5px = 0.3125rem
+4px = 0.25rem
+
+1px = 0.0625rem */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.flex-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.flex-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom:  1.875rem;
+	background-color: #d6e9fe;
+	color: #5995DA;
+}
+
+.flex-item {
+	padding: 1.25rem;
+	background: #fff;
+	border: 0.0625rem solid #003264;
+	text-align: center;
+}
+
+.flex-item {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 20em
+}
+
+.flex-item:nth-of-type(2) {
+	flex-grow: 3;
+	flex-shrink: 3;
+	flex-basis: 20em
+}
+
+img {
+	width: 6.25rem;
+}
+
+p {
+	margin-bottom: 0.625rem;
+}

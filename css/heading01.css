@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+	color: #222;
+}
+
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1,
+p {
+	flex: 85%;
+	border: 1px solid #666;
+}
+
+p {
+	flex: 15%;
+	text-align: right;
+}

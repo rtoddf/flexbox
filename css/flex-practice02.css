@@ -1,0 +1,34 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+
+.flexbox-container {
+	padding: 20px;
+    background: #eee;
+
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+.flexbox-vert-item {
+    width: 300px;
+    background: #fefefe;
+    margin-right: 20px;
+    padding: 10px;
+}

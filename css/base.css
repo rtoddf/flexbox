@@ -1,0 +1,53 @@
+h4 {
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+i {
+	display: block;
+	text-align: center;
+	color: #f80;
+	font-size: 204px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.caption {
+	color: #999;
+	font-size: 12px;
+}
+
+.content-holder {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 10px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+}
+
+/* banner and centering */
+.flex-banner {
+	display: flex;
+	height: 600px;
+	max-width: 700px;
+	margin: 0 auto 20px;
+	background: #2a2a2a;
+	color: #fff;
+}
+
+.flex-banner>div {
+	width: 75%;
+	margin: auto;
+}
+
+/* media queries */
+@media (max-width: 600px) {
+	.flex-row {
+		flex-direction: column;
+	}
+}
