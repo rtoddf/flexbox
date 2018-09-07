@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Interfaces - Flexbox</title>
+		<link href="../css/flexbox-by-example/create-flexible-box.css" rel="stylesheet" />
+		<link href="../css/flexbox-by-example/base-learn.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h3>Create a Flexible Box</h3>
+			<p>An area of a document laid out using flexbox is called a flex container. To create a flex container, we set the value
+			of the area's container's display property to flex or inline-flex. As soon as we do this the direct children of that
+			container become flex items. As with all properties in CSS, some initial values are defined, so when creating a flex
+			container all of the contained flex items will behave in the following way.</p>
+			<ul>
+				<li>Items display in a row (the flex-direction property's default is row).</li>
+				<li>The items start from the start edge of the main axis.</li>
+				<li>The items do not stretch on the main dimension, but can shrink.</li>
+				<li>The items will stretch to fill the size of the cross axis.</li>
+				<li>The flex-basis property is set to auto.</li>
+				<li>The flex-wrap property is set to nowrap.</li>
+			</ul>
+			<p>The result of this is that your items will all line up in a row, using the size of the content as their size in the
+			main axis. If there are more items than can fit in the container, they will not wrap but will instead overflow. If some
+			items are taller than others, all items will stretch along the cross axis to fill its full size.</p>
+	
+			<div class="row">
+				<article>
+					<img src="../images/andy-mientus-square.jpg" />
+				</article>
+				<article>
+					<img src="../images/andrew-garfield01.jpg" />
+				</article>
+				<article>
+					<img src="../images/hannah-hart.jpg" />
+				</article>
+			</div>
+
+<pre>
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+	
+.row {
+	display: flex;
+}
+	
+article {
+	padding: 1.25rem;
+	border: 0.0625rem solid #000;
+}
+</pre>
+
+		</div>
+	</body>
+</html>

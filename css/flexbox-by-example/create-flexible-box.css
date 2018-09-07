@@ -1,0 +1,31 @@
+/* rem sizes:
+40px = 2.5rem
+30px = 1.875rem
+20px = 1.25rem
+
+16px = 1rem
+15px = .9375rem
+14px = 0.875rem
+13px = 0.8125rem
+12px = 0.75rem
+10px = 0.625rem
+5px = 0.3125rem
+4px = 0.25rem
+
+1px = 0.0625rem */
+
+.container {
+	width: 90%;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: #fff;
+}
+
+.row {
+    display: flex;
+}
+
+article {
+    padding: 1.25rem;
+    border: 0.0625rem solid #000;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Interfaces - Flexbox</title>
+		<link href="../css/flexbox-by-example/base-learn.css" rel="stylesheet" />
+		<link href="../css/flexbox-by-example/changing-flex-direction.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h3>Changing Flex Direction</h3>
+			<p>Adding the flex-direction property to the flex container allows us to change the direction in which our flex items
+			display. Setting flex-direction: row-reverse will keep the items displaying along the row, however the start and end
+			lines are switched.</p>
+			<p>If we change flex-direction to column the main axis switches and our items now display in a column. Set column-reverse
+			and the start and end lines are again switched.</p>
+			<div class="row">
+				<article>
+					<img src="../images/andy-mientus-square.jpg" />
+				</article>
+				<article>
+					<img src="../images/andrew-garfield01.jpg" />
+				</article>
+				<article>
+					<img src="../images/hannah-hart.jpg" />
+				</article>
+			</div>
+
+<pre>
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 1.25rem;
+	background-color: #fff;
+}
+
+.row {
+	display: flex;
+}
+
+article {
+	padding: 1.25rem;
+	border: 0.0625rem solid #000;
+}
+</pre>
+
+		</div>
+	</body>
+</html>
