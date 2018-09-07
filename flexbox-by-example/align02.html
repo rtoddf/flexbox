@@ -8,14 +8,27 @@
 		<meta name="author" content="">
 
 		<title>Interfaces - Flexbox</title>
-		<link href="css/tutorial-align01.css" rel="stylesheet" />
+		<link href="../css/flexbox-by-example/align02.css" rel="stylesheet" />
+		<link href="../css/flexbox-by-example/base-learn.css" rel="stylesheet" />
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
-		<div class='flex-container'>
+		<div class="flex-container">
+			<div class='flex-row'>
+				<div class='flex-item'>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt tellus. Maecenas vitae erat tortor. Maecenas sollicitudin ex eu tellus feugiat sagittis.</p>
+				</div>
+				<div class='flex-item'>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt tellus. Maecenas vitae erat tortor. Maecenas sollicitudin ex eu tellus feugiat sagittis.</p>
+				</div>
+				<div class='flex-item'>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt tellus. Maecenas vitae erat tortor. Maecenas sollicitudin ex eu tellus feugiat sagittis.</p>
+				</div>
+			</div>
 
-			<h2>align-items: center;</h2>
+			<h2>justify-content: center;</h2>
+
 			<div class='flex-row center'>
 				<div class='flex-item'>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt tellus. Maecenas vitae erat tortor. Maecenas sollicitudin ex eu tellus feugiat sagittis.</p>
@@ -28,7 +41,8 @@
 				</div>
 			</div>
 
-			<h2>align-items: flex-start;</h2>
+			<h2>justify-content: flex-start;</h2>
+
 			<div class='flex-row flex-start'>
 				<div class='flex-item'>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt tellus. Maecenas vitae erat tortor. Maecenas sollicitudin ex eu tellus feugiat sagittis.</p>
@@ -41,7 +55,8 @@
 				</div>
 			</div>
 
-			<h2>align-items: flex-end;</h2>
+			<h2>justify-content: flex-end;</h2>
+
 			<div class='flex-row flex-end'>
 				<div class='flex-item'>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt tellus. Maecenas vitae erat tortor. Maecenas sollicitudin ex eu tellus feugiat sagittis.</p>
@@ -54,8 +69,9 @@
 				</div>
 			</div>
 
-			<h2>align-items: stretch;</h2>
-			<div class='flex-row stretch'>
+			<h2>justify-content: space-around;</h2>
+
+			<div class='flex-row space-around'>
 				<div class='flex-item'>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt tellus. Maecenas vitae erat tortor. Maecenas sollicitudin ex eu tellus feugiat sagittis.</p>
 				</div>
@@ -67,8 +83,9 @@
 				</div>
 			</div>
 
-			<h2>align-items: baseline;</h2>
-			<div class='flex-row baseline'>
+			<h2>justify-content: space-between;</h2>
+
+			<div class='flex-row space-between'>
 				<div class='flex-item'>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt tellus. Maecenas vitae erat tortor. Maecenas sollicitudin ex eu tellus feugiat sagittis.</p>
 				</div>

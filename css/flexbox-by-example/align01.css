@@ -16,18 +16,6 @@
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/align-items */
 
-html {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
 .flex-row {
 	display: flex;
 	height: 300px;

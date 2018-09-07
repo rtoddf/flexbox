@@ -14,23 +14,11 @@
 
 1px = 0.0625rem */
 
-// center
-// flex-start
-// flex-end
-// space-around
-// space-between
-
-html {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
+/* center
+flex-start
+flex-end
+space-around
+space-between */
 
 h2 {
 	margin-bottom: 5px;

@@ -16,18 +16,6 @@
 
 1px = 0.0625rem */
 
-html {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
 .flex-container {
 	width: 90%;
 	margin: 0 auto;
@@ -59,12 +47,4 @@ html {
 	flex-grow: 3;
 	flex-shrink: 3;
 	flex-basis: 20em
-}
-
-img {
-	width: 6.25rem;
-}
-
-p {
-	margin-bottom: 0.625rem;
 }

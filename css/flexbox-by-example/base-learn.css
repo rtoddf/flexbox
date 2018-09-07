@@ -26,27 +26,10 @@ html {
     box-sizing: inherit;
 }
 
-.flex-container {
-	width: 90%;
-	margin: 0 auto;
-}
-
-.flex-row {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	height: 600px;
-	background-color: #d6e9fe;
-	color: #5995DA;
-}
-
-.flex-item {
-	padding: 1.25rem;
-	background: #fff;
-	border: 0.0625rem solid #003264;
-}
-
 img {
-	width: 200px;
+	width: 20rem;
+}
+
+p {
+	margin-bottom: 0.625rem;
 }
