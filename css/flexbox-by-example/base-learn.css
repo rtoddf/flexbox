@@ -28,7 +28,8 @@ html {
     box-sizing: inherit;
 }
 
-h3 {
+h3,
+h4 {
     margin-bottom: 1.25rem;
 }
 

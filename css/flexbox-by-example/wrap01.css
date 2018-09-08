@@ -1,20 +1,28 @@
-.flex-container {
+.container {
 	width: 90%;
-	margin: 0 auto;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: #fff;
 }
 
-.flex-row {
+.row {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	height: 600px;
-	background-color: #d6e9fe;
-	color: #5995DA;
 }
 
-.flex-item {
-	padding: 1.25rem;
-	background: #fff;
-	border: 0.0625rem solid #003264;
+.wrap {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.wrap-reverse {
+	-ms-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
+}
+
+article {
+	padding: 4.0rem;
+	background: #ae0000;
+	border: 0.0625rem solid #000;
+	color: #fff;
+	font-size: 2.5rem;
 }
