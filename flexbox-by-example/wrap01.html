@@ -8,39 +8,102 @@
 		<meta name="author" content="">
 
 		<title>Interfaces - Flexbox</title>
-		<link href="../css/flexbox-by-example/wrap01.css" rel="stylesheet" />
 		<link href="../css/flexbox-by-example/base-learn.css" rel="stylesheet" />
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href="../css/flexbox-by-example/wrap01.css" rel="stylesheet" />
 	</head>
 
 	<body>
-		<div class='flex-container'>
-			<div class='flex-row'>
-				<div class='flex-item'>
-					<img src="../images/jonathan-groff.jpg">
-				</div>
-				<div class='flex-item'>
-					<img src="../images/jonathan-groff.jpg">
-				</div>
-				<div class='flex-item'>
-					<img src="../images/jonathan-groff.jpg">
-				</div>
-				<div class='flex-item'>
-					<img src="../images/jonathan-groff.jpg">
-				</div>
-				<div class='flex-item'>
-					<img src="../images/jonathan-groff.jpg">
-				</div>
-				<div class='flex-item'>
-					<img src="../images/jonathan-groff.jpg">
-				</div>
-				<div class='flex-item'>
-					<img src="../images/jonathan-groff.jpg">
-				</div>
-				<div class='flex-item'>
-					<img src="../images/jonathan-groff.jpg">
-				</div>
+		<div class="container">
+			<h3>Flex Wrap</h3>
+			<p>By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.</p>
+			<ul>
+				<li>nowrap (default): all flex items will be on one line</li>
+				<li>wrap: flex items will wrap onto multiple lines, from top to bottom.</li>
+				<li>wrap-reverse: flex items will wrap onto multiple lines from bottom to top.</li>
+			</ul>			
+
+			<h4>Wrap:</h4>
+			<div class="row wrap">
+				<article>
+					1
+				</article>
+				<article>
+					2
+				</article>
+				<article>
+					3
+				</article>
+				<article>
+					4
+				</article>
+				<article>
+					5
+				</article>
+				<article>
+					6
+				</article>
+				<article>
+					7
+				</article>
+				<article>
+					8
+				</article>
+				<article>
+					9
+				</article>
 			</div>
+<pre>
+.row {
+	display: flex;
+}
+
+.wrap {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+</pre>
+
+			<h4>Wrap Reverse:</h4>
+			<div class="row wrap-reverse">
+				<article>
+					1
+				</article>
+				<article>
+					2
+				</article>
+				<article>
+					3
+				</article>
+				<article>
+					4
+				</article>
+				<article>
+					5
+				</article>
+				<article>
+					6
+				</article>
+				<article>
+					7
+				</article>
+				<article>
+					8
+				</article>
+				<article>
+					9
+				</article>
+			</div>
+<pre>
+.row {
+	display: flex;
+}
+
+.wrap-reverse {
+	-ms-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
+}
+</pre>
+
 		</div>
 	</body>
 </html>

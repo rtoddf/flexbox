@@ -1,0 +1,34 @@
+.container {
+	width: 90%;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: #fff;
+}
+
+.row {
+    display: flex;
+}
+
+.row-reverse {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.column-reverse {
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+article {
+    padding: 1.25rem;
+    border: 0.0625rem solid #000;
+}
+
+article img {
+    width: 100px;
+}
