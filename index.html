@@ -8,25 +8,24 @@
 		<meta name="author" content="">
 
 		<title>Interfaces - Flexbox</title>
-		<link href="../css-flexbox/base.css" rel="stylesheet" />
-		<link href="css/base.css" rel="stylesheet" />
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href="../css/layouts.css" rel="stylesheet">
+		<link href="../css/displays.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
 	</head>
 
-	<body>
-		<div class="flex-container">
-			<div class="flex-row">
-				<div class="flex-item">
-					<h2>Flexbox</h2>
-					<p>The CSS3 Flexible Box, or flexbox, is a layout mode intended to accommodate different screen sizes and different display devices. For many applications, the flexible box model is easier than the block model since it does not use floats, nor do the flex container's margins collapse with the margins of its contents.</p>
-					<p>Many designers find the flexboxes easier to use than boxes. Without a lot of work, div's frequently rose to the top of a page when designers did not want them to---so for example, sticking a footer to the bottom of a page was difficult. The widths and heights of flexboxes vary to adapt to the display space, holding the lower down elements in place. Flexbox logic also asks whether you want div's to accrue to the right or on the bottom. The display order of flexbox elements is independent of their order in the source code.</p>
-					<p>Popular layouts can thus be achieved more simply and with cleaner code. This independence intentionally affects only the visual rendering, leaving speech order and navigation based on a linear reading of the HTML source.</p>
-					<div class="source"> - MDN web docs</div>
-				</div>
-			</div>
+	<body data-theme="home">
+		<div class="container">
+			<header>
+				<h2>Flexbox</h2>
+				<p>The CSS3 Flexible Box, or flexbox, is a layout mode intended to accommodate different screen sizes and different display devices. For many applications, the flexible box model is easier than the block model since it does not use floats, nor do the flex container's margins collapse with the margins of its contents.</p>
+				<p>Many designers find the flexboxes easier to use than boxes. Without a lot of work, div's frequently rose to the top of a page when designers did not want them to---so for example, sticking a footer to the bottom of a page was difficult. The widths and heights of flexboxes vary to adapt to the display space, holding the lower down elements in place. Flexbox logic also asks whether you want div's to accrue to the right or on the bottom. The display order of flexbox elements is independent of their order in the source code.</p>
+				<p>Popular layouts can thus be achieved more simply and with cleaner code. This independence intentionally affects only the visual rendering, leaving speech order and navigation based on a linear reading of the HTML source.</p>
+				<div class="source"> - MDN web docs</div>
+			</header>
 
-			<div class="flex-row">
-				<div class="flex-item">
+			<div class="grid" data-layout="" data-col="3">
+				<article class="panel">
 					<h3>layouts</h3>
 					<ul>
 						<li><a href="layout-page02.html">Washington Post column layout</a></li>
@@ -34,7 +33,8 @@
 						<li><a href="layout-page05.html">Page layout five</a></li>
 						<li><a href="layout-page04.html">Combination of all layouts</a></li>
 					</ul>
-
+				</article>
+				<article class="panel">
 					<h3>dynamic final examples</h3>
 					<ul>
 						<li><a href="flex-final01-a.html">dynamic one up (7 x 1) - non-limited</a></li>
@@ -45,13 +45,14 @@
 						<li><a href="flex-final01.html">static go-by</a></li>
 						<li><a href="layout05.html">Centering elements</a></li>
 					</ul>
-
+				</article>
+				<article class="panel">
 					<h3>moved from site</h3>
 					<ul>
 						<li><a href="flex-final01e.html">Static - Complex Grid (4-1-4) - static version - need dynamic</a></li>
 					</ul>
-				</div>
-				<div class="flex-item">
+				</article>
+				<article class="panel">
 					<h3>simple layouts</h3>
 					<ul>
 						<li><a href="layout01.html">Equal, simple combinations</a></li>
@@ -60,7 +61,8 @@
 						<li><a href="layout-page01.html">Page layout one</a></li>
 						<li><a href="layout04.html">Equal, simple combinations - square images</a></li>
 					</ul>
-
+				</article>
+				<article class="panel">
 					<h3>practice</h3>
 					<ul>
 						<li><a href="flex-practice01.html">flex practice 01</a></li>
@@ -68,15 +70,8 @@
 						<li><a href="flex-practice04.html">flex practice 04</a></li>
 						<li><a href="heading01.html">heading01.html</a></li>
 					</ul>
-				</div>
-				<div class="flex-item">
-					
-				</div>
-			</div>
-
-
-			<div class="flex-row">
-				<div class="flex-item">
+				</article>
+				<article class="panel">
 					<h3>Learning - Flexbox by Example</h3>
 					<ul>
 						<li>
@@ -89,12 +84,8 @@
 							<a href="flexbox-by-example/wrap01.html">Wrap 01</a>
 						</li>
 					</ul>
-
-
-					
-				</div>
-
-				<div class="flex-item">
+				</article>
+				<article class="panel">
 					<ul>
 						<li><a href="flexbox-by-example/flexbasis01.html">Flex Basis 01</a></li>
 						<li><a href="flexbox-by-example/flexgrow01.html">Flex Grow 01</a></li>
@@ -105,9 +96,7 @@
 						<li><a href="flexbox-by-example/wrap01.html">Wrap 01</a></li>
 						<li><a href="flexbox-by-example/align01b.html">Align 01b</a></li>
 					</ul>
-				</div>
-				<div class="flex-item"></div>
-
+				</article>
 			</div>
 		</div>
 	</body>
