@@ -5,7 +5,7 @@ var photoSource = 'photos',
 
 var Grid = new function(){
 	this.getImages = function(){
-		$.getJSON('data/' + photoSource + '.json', function(data){
+		$.getJSON('../data/' + photoSource + '.json', function(data){
 			Grid.setUp(data)
 		})
 	}
@@ -30,7 +30,7 @@ var Grid = new function(){
 var template_raw = '<div class="flex-item" data-image-layout="square"> \
 	<div class="tile"> \
 		<div class="image-holder"> \
-			<img src="images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
+			<img src="../../images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
 		</div> \
 		<div class="content-holder"> \
 			<h4><%= members.name %></h4> \
