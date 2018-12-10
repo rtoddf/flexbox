@@ -13,16 +13,13 @@ var Grid = new function(){
 	}
 
 	this.getImages = function(thisRow, id, col, row, layout, nums){
-		$.getJSON('data/' + photoSource + '.json', function(data){
+		$.getJSON('../data/' + photoSource + '.json', function(data){
 			Grid.setUp(data, thisRow, id, col, row, layout, nums)
 		})
 	}
 
 	this.setUp = function(photos, thisRow, rowId, columnLimits, rowLimits, rowLayout, nums){
 		// photos.sort(function() { return 0.5 - Math.random() });
-
-		
-
 		var totalPh = 0;
 		nums = nums.split('/');
 
@@ -62,7 +59,7 @@ var Grid = new function(){
 var template_raw = '<div class="flex-item<% if(rowLimits == 1){ %> col-single<% } %>"> \
 	<div class="tile"> \
 		<div class="image-holder"> \
-			<img src="images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
+			<img src="../images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
 		</div> \
 		<div class="content-holder"> \
 			<h4><%= members.name %></h4> \
@@ -71,7 +68,7 @@ var template_raw = '<div class="flex-item<% if(rowLimits == 1){ %> col-single<% 
 </div>'
 
 $(document).ready(function(){
-	$.getJSON('data/grid02.json', function(data){
+	$.getJSON('../data/grid02.json', function(data){
 		$.each(data, function(i, m){
 			var newRow = '<div id="row-' + (i+1) + '" class="flex-row" data-columnLimit="' + m.columns + '" data-rowLimit="' + m.rows + '" data-layout="' + m.layout + '" data-nums="' + m.nums +'">'
 			$('.flex-container').append(newRow)
