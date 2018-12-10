@@ -11,7 +11,7 @@ var Grid = new function(){
 	}
 
 	this.getImages = function(thisRow, id, col, row){
-		$.getJSON('data/' + photoSource + '.json', function(data){
+		$.getJSON('../data/' + photoSource + '.json', function(data){
 			Grid.setUp(data, thisRow, id, col, row)
 		})
 	}
@@ -41,7 +41,7 @@ var Grid = new function(){
 var template_raw = '<div class="flex-item" data-image-layout="square"> \
 	<div class="tile"> \
 		<div class="image-holder"> \
-			<img src="images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
+			<img src="../../images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
 		</div> \
 		<div class="content-holder"> \
 			<h4><%= members.name %></h4> \
@@ -50,7 +50,7 @@ var template_raw = '<div class="flex-item" data-image-layout="square"> \
 </div>'
 
 $(document).ready(function(){
-	$.getJSON('data/grid.json', function(data){
+	$.getJSON('../data/grid.json', function(data){
 		$.each(data, function(i, m){
 			var newRow = '<div id="row-' + (i+1) + '" class="flex-row" data-columnLimit="' + m.columns + '" data-rowLimit="' + m.rows + '" data-margin="0">'
 			$('.flex-container').append(newRow)
