@@ -7,16 +7,13 @@
 }
 
 .flex-item {
+	flex-grow: 1;
 	padding: 1.25rem;
 	background: rgba(255,255,255,.5);
 	border: 0.0625rem solid #222;
 	text-align: center;
 }
 
-.flex-item:nth-of-type(1) {
-	flex-basis: 40rem;
-}
-
-.flex-item:nth-of-type(2) {
-	flex-basis: auto;
+.flex-item:nth-of-type(3) {
+	flex-grow: 2;
 }

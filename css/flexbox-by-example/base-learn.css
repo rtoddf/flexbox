@@ -18,8 +18,8 @@
 
 html {
     box-sizing: border-box;
-    background-color: #efefef;
-    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 *, *:before, *:after {
@@ -28,17 +28,25 @@ html {
     box-sizing: inherit;
 }
 
-h3,
-h4 {
-    margin-bottom: 1.25rem;
+body {
+	color:#fff;
+	background-color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+}
+
+h2 i.fa {
+	font-size: 12px;
+}
+
+p {
+	padding: 0 0 10px;
 }
 
 img {
 	width: 20rem;
-}
-
-p {
-	margin-bottom: 0.625rem;
 }
 
 ul {
@@ -54,4 +62,10 @@ ul li {
 
 pre {
     margin: 1.25rem 0;
+}
+
+.container {
+	width: 90%;
+    margin: 0 auto;
+    padding: 1.25rem;
 }

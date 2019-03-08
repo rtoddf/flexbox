@@ -59,7 +59,7 @@ var Grid = new function(){
 var template_raw = '<div class="flex-item<% if(rowLimits == 1){ %> col-single<% } %>"> \
 	<div class="tile"> \
 		<div class="image-holder"> \
-			<img src="../images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
+			<img src="../../images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
 		</div> \
 		<div class="content-holder"> \
 			<h4><%= members.name %></h4> \
