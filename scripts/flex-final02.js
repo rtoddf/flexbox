@@ -29,16 +29,16 @@ var Grid = new function(){
 		}
 
 		if(rowLimits != 1){
-			var divs = $('#' + rowId + '>.flex-item')
+			var divs = $('#' + rowId + '>div')
 
 			for(var i = 0; i < divs.length; i+=rowLimits) {
-				divs.slice(i, i+rowLimits).wrapAll('<div class="flex-item" data-layout="column"></div>');
+				divs.slice(i, i+rowLimits).wrapAll('<div data-layout="column"></div>');
 			}
 		}
 	}
 }
 
-var template_raw = '<div class="flex-item" data-image-layout="square"> \
+var template_raw = '<div data-image-layout="square"> \
 	<div class="tile"> \
 		<div class="image-holder"> \
 			<img src="../../images/<%= members.image %>" alt="<%= members.name %>"" name="<%= members.name %>""> \
@@ -52,11 +52,11 @@ var template_raw = '<div class="flex-item" data-image-layout="square"> \
 $(document).ready(function(){
 	$.getJSON('../data/grid.json', function(data){
 		$.each(data, function(i, m){
-			var newRow = '<div id="row-' + (i+1) + '" class="flex-row" data-columnLimit="' + m.columns + '" data-rowLimit="' + m.rows + '" data-margin="0">'
-			$('.flex-container').append(newRow)
+			var newRow = '<div id="row-' + (i + 1) + '" class="grid" data-columnLimit="' + m.columns + '" data-rowLimit="' + m.rows + '" data-margin="0">'
+			$('.container').append(newRow)
 		})
 
-		$.each($('.flex-row'), function(i, newRow){
+		$.each($('.grid'), function(i, newRow){
 			Grid.data(newRow)
 		})
 	})	
