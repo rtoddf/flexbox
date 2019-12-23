@@ -1,0 +1,22 @@
+.widget {
+  position: relative;
+  display: flex;
+}
+.widget-header {
+  background-color: #1976d2;
+  border: 1px solid red;
+  text-align: center;
+  color: #fff;
+  width: 25px;
+}
+.header-content {
+  transform: rotate(-90deg);
+  transform-origin: 0 100%;
+  position: absolute;
+  line-height: 25px;
+  font-size: 14px;
+  height: 25px;
+  width: 100%;
+  left: 25px;
+  bottom: 0;
+}
